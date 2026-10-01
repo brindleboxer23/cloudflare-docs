@@ -51,8 +51,8 @@ importers:
         specifier: 0.0.43
         version: 0.0.43
       '@cloudflare/nimbus-docs':
-        specifier: 0.14.1
-        version: 0.14.1(@astrojs/markdown-remark@7.3.1(supports-color@10.2.2))(@types/node@26.6.2)(astro@7.3.3(@astrojs/markdown-remark@7.3.1(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.6.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1))(esbuild@0.28.2)(jiti@2.7.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(supports-color@10.2.2)(tsx@4.23.15)
+        specifier: 0.15.1
+        version: 0.15.1(@astrojs/markdown-remark@7.3.1(supports-color@10.2.2))(@types/node@26.6.2)(astro@7.3.3(@astrojs/markdown-remark@7.3.1(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.6.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1))(esbuild@0.28.2)(jiti@2.7.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(supports-color@10.2.2)(tsx@4.23.15)
       '@cloudflare/vitest-pool-workers':
         specifier: 0.22.0
         version: 0.22.0(@cloudflare/workers-types@5.20260921.1)(@vitest/runner@4.1.11)(@vitest/snapshot@4.1.11)(vitest@4.1.11(@types/node@26.6.2)(happy-dom@20.14.5)(vite@8.3.0(@types/node@26.6.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))
@@ -763,8 +763,8 @@ packages:
     resolution: {integrity: sha512-jxQYkj8dSIzc0cD6cMMNdOc1UVjqSqu8BZdor5s8cGjW2I8BjODt/kWPVdY+u9zj3ms75Q5qaZgnxUad83+eAg==}
     engines: {node: '>=22.0.0'}
 
-  '@cloudflare/nimbus-docs@0.14.1':
-    resolution: {integrity: sha512-xsmuT60FfZvRWUQxM+vhP+mkiaZroNsotT1VNH98VLbAYUbSVFfE7/PHnMaD4DMBynI45GsuvDA9rxVGqQGohQ==}
+  '@cloudflare/nimbus-docs@0.15.1':
+    resolution: {integrity: sha512-yiZAHY+8gFDMU6IQXVH+pBqxO2YByPiPSIC5kVd1EG9fuEFy2uc/67c9NMhuvaKGQYlBPUpIVuIVxpzyLPvZbA==}
     engines: {node: '>=22.12.0'}
     hasBin: true
     peerDependencies:
@@ -831,7 +831,7 @@ packages:
     os: [darwin]
 
   '@cloudflare/workerd-darwin-64@1.20260915.1':
-    resolution: {integrity: sha512-EFjNxN4l5caJoHADhchROvO52EFFt+zmJvFZRmwX6UU9pE53BAbF94wRBhbpylv5Ethsd1TdJNwYuUPgZYbETg==, tarball: https://registry.npmjs.org/@cloudflare/workerd-darwin-64/-/workerd-darwin-64-1.20260915.1.tgz}
+    resolution: {integrity: sha512-EFjNxN4l5caJoHADhchROvO52EFFt+zmJvFZRmwX6UU9pE53BAbF94wRBhbpylv5Ethsd1TdJNwYuUPgZYbETg==}
     engines: {node: '>=16'}
     cpu: [x64]
     os: [darwin]
@@ -855,7 +855,7 @@ packages:
     os: [darwin]
 
   '@cloudflare/workerd-darwin-arm64@1.20260915.1':
-    resolution: {integrity: sha512-Xm2jbLw8M/o5YkuI5VsHCVU4rgnzr3ROl+Awk7FCBJ3mtLJNuxPtJNB/zZI+/t+3QtgsSPnmTisS5Gq6/KLQ/A==, tarball: https://registry.npmjs.org/@cloudflare/workerd-darwin-arm64/-/workerd-darwin-arm64-1.20260915.1.tgz}
+    resolution: {integrity: sha512-Xm2jbLw8M/o5YkuI5VsHCVU4rgnzr3ROl+Awk7FCBJ3mtLJNuxPtJNB/zZI+/t+3QtgsSPnmTisS5Gq6/KLQ/A==}
     engines: {node: '>=16'}
     cpu: [arm64]
     os: [darwin]
@@ -879,7 +879,7 @@ packages:
     os: [linux]
 
   '@cloudflare/workerd-linux-64@1.20260915.1':
-    resolution: {integrity: sha512-hkQp+PWBp7U6uDMd6hqUf4lfErPV79jolLaK6j4U50HrHC4jqWxESPemkxEk8H7p9jTKkZ9I9Z0nA5DLAE0J6g==, tarball: https://registry.npmjs.org/@cloudflare/workerd-linux-64/-/workerd-linux-64-1.20260915.1.tgz}
+    resolution: {integrity: sha512-hkQp+PWBp7U6uDMd6hqUf4lfErPV79jolLaK6j4U50HrHC4jqWxESPemkxEk8H7p9jTKkZ9I9Z0nA5DLAE0J6g==}
     engines: {node: '>=16'}
     cpu: [x64]
     os: [linux]
@@ -903,7 +903,7 @@ packages:
     os: [linux]
 
   '@cloudflare/workerd-linux-arm64@1.20260915.1':
-    resolution: {integrity: sha512-3yi8/irVGNQbuYTSmLXcEGupk4Js42jU3kyAx88MDbwGQUa34VbucKcNwHwfhqwEUNaIrn8ohlOEcNJChQl0Og==, tarball: https://registry.npmjs.org/@cloudflare/workerd-linux-arm64/-/workerd-linux-arm64-1.20260915.1.tgz}
+    resolution: {integrity: sha512-3yi8/irVGNQbuYTSmLXcEGupk4Js42jU3kyAx88MDbwGQUa34VbucKcNwHwfhqwEUNaIrn8ohlOEcNJChQl0Og==}
     engines: {node: '>=16'}
     cpu: [arm64]
     os: [linux]
@@ -927,7 +927,7 @@ packages:
     os: [win32]
 
   '@cloudflare/workerd-windows-64@1.20260915.1':
-    resolution: {integrity: sha512-+FQ3o/grK2tQy6dw3AqSOYWsYROZqxCQKBqSHQVcXvr2x2QetCT64OrvAAJ0hpQAokREFwQyzsNmMiZbAdW0zw==, tarball: https://registry.npmjs.org/@cloudflare/workerd-windows-64/-/workerd-windows-64-1.20260915.1.tgz}
+    resolution: {integrity: sha512-+FQ3o/grK2tQy6dw3AqSOYWsYROZqxCQKBqSHQVcXvr2x2QetCT64OrvAAJ0hpQAokREFwQyzsNmMiZbAdW0zw==}
     engines: {node: '>=16'}
     cpu: [x64]
     os: [win32]
@@ -6657,7 +6657,7 @@ snapshots:
 
   '@cloudflare/kv-asset-handler@0.5.0': {}
 
-  '@cloudflare/nimbus-docs@0.14.1(@astrojs/markdown-remark@7.3.1(supports-color@10.2.2))(@types/node@26.6.2)(astro@7.3.3(@astrojs/markdown-remark@7.3.1(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.6.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1))(esbuild@0.28.2)(jiti@2.7.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(supports-color@10.2.2)(tsx@4.23.15)':
+  '@cloudflare/nimbus-docs@0.15.1(@astrojs/markdown-remark@7.3.1(supports-color@10.2.2))(@types/node@26.6.2)(astro@7.3.3(@astrojs/markdown-remark@7.3.1(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.6.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1))(esbuild@0.28.2)(jiti@2.7.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(supports-color@10.2.2)(tsx@4.23.15)':
     dependencies:
       '@astrojs/markdown-satteri': 0.4.1
       '@astrojs/mdx': 8.0.1(@astrojs/markdown-remark@7.3.1(supports-color@10.2.2))(@astrojs/markdown-satteri@0.4.1)(astro@7.3.3(@astrojs/markdown-remark@7.3.1(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.6.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1))
